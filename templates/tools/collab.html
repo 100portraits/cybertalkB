@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Collaboration | Digital Learning Techniques</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../static/css/tool.css'>
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">    
+
+</head>
+<body>
+    <div class="navbar-box">
+        <div class="navbar-pages">
+            <div><a href="/">Why Tools Work</a></div>
+            <div><a href="../tools" style="text-decoration: underline;">Tools</a></div>
+            <div><a href="../about">About Us</a></div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="text-content">
+            <div><h1 class="header-innovative">Collaboration</h1></div>
+            <p class="short-desc">
+                Collaborative spaces are great tools for students to work together, brainstorm ideas, and share information. Similarly to a whiteboard, students can create mind maps, use sticky notes, and draw diagrams. It helps students to visualise and communicate their knowledge. 
+
+            </p>
+            
+            
+        </div>
+        <div class="image1">
+            <h3>Tools we recommend:</h3>
+
+        </div>
+        <div class="toolslider">
+            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide">
+                            <a id="example-tool" class="example-tool" onclick="openModal('docs')"><img alt="cheese" src="https://cdn-icons-png.flaticon.com/512/5968/5968517.png"></a>
+                        </li>
+                          <li class="splide__slide">
+                            <a id="example-tool" class="example-tool" onclick="openModal('miro')"><img alt="cheese" src="https://www.gend.co/hubfs/Miro-Logo-Square-Insight-Platforms.png"></a>
+                        </li>
+                          <li class="splide__slide">
+                            <a id="example-tool" class="example-tool" onclick="openModal('canva')"><img alt="cheese" src="https://freelogopng.com/images/all_img/1656733637logo-canva-png.png"></a>
+                        </li>
+                        <li class="splide__slide">
+                            <a id="example-tool" class="example-tool" onclick="openModal('jam')"><img alt="cheese" src="https://cdn-icons-png.flaticon.com/512/2965/2965289.png"></a>
+                        </li>
+                      </ul>
+                </div>
+              </div>
+            
+        </div>
+    </div>
+    <div class="modals">
+        <div class='modal' id="modaldocs">
+            <div class="modal-content">
+                <div style="display: flex; flex-direction: column;">
+
+                <div>
+                    <h2><a class="modal-link" href="https://docs.google.com/" target=”_blank”>Google Docs</a></h2>
+                    <p>Google Docs can be used to create and edit online word documents with peers. These files will be stored in the clouds, so they are easily shared and accessed to anyone with a computer or a phone. 
+
+                    </p>
+                    <a class="modal-link-small" href="https://docs.google.com/" target=”_blank”>Google Docs - Link</a>
+                </div>
+                <img src="https://media.gcflearnfree.org/content/55e073a97dd48174331f51a0_01_17_2014/lg5.jpg">
+
+                </div>
+                <button onclick="closeModal()" class="closebtn">Close</button>
+            </div>
+        </div>
+        <div class='modal' id="modalmiro">
+            <div class="modal-content">
+                <div style="display: flex; flex-direction: column;">
+
+                <div>
+                    <h2><a class="modal-link" href="https://miro.com/" target=”_blank”>Miro</a></h2>
+                    <p>Miro is an online tool used to brainstorm, create concepts, and visualise ideas. With the use of sticky notes and indicator arrows, it has become a lot easier to share ideas that are difficult to put into words.
+
+                    </p>
+                    <a class="modal-link-small" href="https://miro.com/" target=”_blank”>Miro - Link</a>
+                </div>
+                <img src="https://images.ctfassets.net/w6r2i5d8q73s/3oVsIrVgd9nO1i8sbVgv2k/6c2402461efd45bd90980ed8dd59bdfa/headerimage-without-text.png">
+                </div>
+                <button onclick="closeModal()" class="closebtn">Close</button>
+            </div>
+        </div>
+        <div class='modal' id="modalcanva">
+            
+            <div class="modal-content">
+                <div style="display: flex; flex-direction: column;">
+
+                <div>
+                    <h2><a class="modal-link" href="https://canva.com/" target=”_blank”>Canva</a></h2>
+                    <p>Canva is a popular graphic design platform that allows users to create a wide range of visual content, including presentations, posters, social media graphics, and more. With Canva, users can choose from a vast library of templates, images, and design elements to create stunning visuals for various purposes. The platform makes it easy for users to customise their designs and create high-quality visuals without any prior design experience. Canva is a versatile tool that can be used by educators, students, and professionals to create engaging and visually appealing content for their audiences. 
+
+                    </p>
+                    <a class="modal-link-small" href="https://canva.com/" target=”_blank”>Canva - Link</a>
+                </div>
+                <img src="https://techcrunch.com/wp-content/uploads/2022/09/Drag-Drop.png">
+                </div>
+                <button onclick="closeModal()" class="closebtn">Close</button>
+            </div>
+        </div>
+        <div class='modal' id="modaljam">
+            <div class="modal-content">
+                <div style="display: flex; flex-direction: column;">
+
+                <div>
+                    <h2><a class="modal-link" href="https://jamboard.google.com/" target=”_blank”>Jamboard</a></h2>
+                    <p>Jamboard is a digital whiteboard developed by Google used for creating diagrams, brainstorming and visualising ideas. Users can create, edit, and share documents, images, and other types of media on the board, and work together. 
+
+ 
+                    </p>
+                    <a class="modal-link-small" href="https://jamboard.google.com/" target=”_blank”>Jamboard - Link</a>
+                    </div>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_URcwE7bnBrObIAtaflDnHN4udo6V0spYPQF43BdWXAkh_b4OLTykwGU7d3GeMBfd6P5h75KxLvD08LR59quUg3KBCHV_qxyhbN9MPSx3XAgWh5CqXol4-yi5JlbdSPLvg3QIeDcAPFU6_vj6xoTogSwryQUWEdvZg2-yIbJnVSVjuBAMbhCmI9z7/s1600/jamb.png">
+                </div>
+                <button onclick="closeModal()" class="closebtn">Close</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="{{url_for('static', filename='script/modals.js')}}"></script>
+<script>
+
+    var splide = new Splide( '.splide', {
+        perPage: 3,
+        rewind : true,
+        padding: 20,
+        gap: '20px',
+        autoWidth: true,
+        autoHeight: true,
+    } );
+
+    splide.mount();  
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script type=text/javascript>
+        $(function() {
+          $('a#example-tool').bind('click', function() {
+            $.getJSON('/log_binary_collab',
+                function(data) {
+              //do nothing
+            });
+        return false;
+      });
+    });
+</script>
+</html>

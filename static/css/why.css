@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'SF Pro Text Light';
+    src: url('SF-Pro-Text-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    font-weight: 300;
+}
+.btnmain {
+    background-color: #eeeeee; 
+    border-radius: 15px; 
+    padding: 10px 20px 10px 20px; 
+    margin-left: 10px; 
+    width: fit-content;
+    margin-bottom: 10px;
+}
+.btnmain:hover a{
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+
+}
+.btnmain a {
+    font-size: larger;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.navbar-box {
+    font-size: large;
+    background-color: #ADD0F8;
+    color: #f5f5f8;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+}
+a {
+    color: rgb(58, 57, 57);
+    font-family: 'SF Pro Text Light', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+.learnmore {
+    color:rgb(58, 57, 57);
+    font-size: 18.6px;
+    text-decoration: underline;
+}
+.learnmore:hover {
+    font-size: 18.6px;
+    color:black;
+}
+
+.navbar-pages {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.navbar-lang {
+    display: flex;
+    color: rgb(58, 57, 57);
+    font-family: 'SF Pro Text Light', sans-serif;
+    font-size: medium;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+body {
+    font-family: 'SF Pro Text Light', sans-serif;
+    color: rgb(58, 57, 57);
+    margin: 0;
+    background-color: #eeeeee;
+    height: 100%;
+    transition: background-color 0.5s ease;
+}
+
+.header-innovative {
+    padding: 20px;
+    font-weight: 300;
+}
+.short-desc {
+    max-width: 1000px;
+    padding-left:20px;
+    font-size: 1.2em;
+    font-weight: 300;
+
+}
+.search-in{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+a:hover { 
+    font-size: 16.3px;
+    color:black;
+}
+
+.footer-box {
+    
+    width: 100%;
+    margin: 0;
+
+    background-color: #ADD0F8;
+    color: rgb(58, 57, 57);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box h3, .footer-box p{
+    font-weight: 300;
+
+    padding: 20px;
+    margin:0;
+    font-family: 'SF Pro Text Light', sans-serif;
+    font-size: medium;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 170px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+@media screen and (max-width: 800px) {
+    .header-container {
+      flex-direction: column;
+    }
+    .image-container {
+        width: 80%;
+    }
+    a {
+        font-size: small; 
+    }
+}
+.content {
+    margin: 40px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+.facts-container div {
+    display: flex;
+        font-weight: 300;
+
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+}
+.citation {
+    color: blue;
+}
+.content0 {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+    font-size: large;
+}
+.content2 {
+    background-color: white;
+    padding: 40px;
+
+}
+.content3{
+    padding: 40px;
+}
+.content4 {
+    padding: 40px;
+    background-color: white;
+}
+.content4 div div {
+    background-color: #eeeeee;
+}
+.resource-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.resource-container div {
+    display: flex;
+    font-weight: 300;
+
+    align-items: start;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px;
+}
+.resource-container2 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.resource-container2 div {
+    display: flex;
+    font-weight: 300;
+
+    align-items: start;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 30px;
+}
+
+.fact p {
+    font-size: 1.2em;
+    font-weight: 300;
+
+}
+.bib {
+    padding: 40px;
+}
+.bib div div {
+    background-color: white;
+    border-radius: 15px;
+    gap: 15px;
+}

@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'sf';
+    src: url('SF-Pro-Text-Light.ttf');
+
+}
+html {
+    font-family: 'sf';
+}
+.navbar-box {
+    font-size: large;
+    background-color: #ADD0F8;
+    color: #f2f2f2;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+}
+a {
+    color: rgb(58, 57, 57);
+    font-family: 'sf';
+    font-size: medium;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+a:hover { 
+    font-size: 16.3px;
+    color:black;
+}
+body {
+    font-family: sf;
+    color: rgb(58, 57, 57);
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+.navbar-pages {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.navbar-lang {
+    display: flex;
+    color: rgb(58, 57, 57);
+    font-family: 'sf', sans-serif;
+    font-size: medium;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.header-innovative {
+    font-weight: 500;
+    font-size: 2.5em;
+}
+.text-content {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 60vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+.short-desc {
+    max-width:90%;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+.image1 {
+    margin: 20px;
+    width: 40vw;
+}
+.image1 img {
+    width: 40vw;
+}
+.modal-content {
+    border-radius: 15px;
+}
+.example-grid{
+
+    display: grid;
+    gap: 20px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+}
+
+.example-tool img {
+    background-color: white;
+    width: 13vw;
+    height: 13vw;
+    padding: 40px; 
+    cursor: pointer;
+    border-radius: 15px;
+}
+.example-tool {
+    padding: 10px;
+    border-radius: 15px;
+}
+.modal-link {
+    font-size: larger;
+
+}
+.modal-link:hover {
+    font-size: larger;
+    
+    text-decoration: underline;
+}
+@media screen and (max-width: 800px) {
+    .columns {
+      flex-direction: column;
+    }
+    .text-content{
+        width: 100vw;
+    }
+    .image1, .image1 img {
+        width: 80vw;
+    }
+    .example-tool img {
+       width: 33vw; 
+       height: 33vw;
+    }
+  }
+
+.modal {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: auto;
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+.modal-content {
+    background-color: white;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0px 40px 40px 40px;
+    justify-content: space-between;
+}
+.modal-content div {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.closebtn {
+    border: 0px;
+    color:#3A3939;
+    background-color: #a9d4ef;
+        padding: 10px;
+    border-radius: 12%;
+    width: max-content;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+.closebtn:hover {
+    color: #3A3939;
+    background-color: #a9d4ef;
+    padding: 10px;
+    border-radius: 12%;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+}
+
+.toolslider {
+    margin-bottom: 20px;
+}
+.modal-link-small {
+    color: blue;
+    text-decoration: underline;
+}
